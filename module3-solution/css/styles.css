@@ -1,0 +1,70 @@
+*
+{
+    box-sizing: border-box;
+}
+
+
+#header-nav
+{
+height: 60px;;
+width:100%;
+background-color: aliceblue;
+}
+button
+{
+    color:darkred;
+    height:40px;
+}
+.navbar-brand
+{
+margin:-25px;
+padding-left:50px;
+color:darkred;
+}
+#menu div
+{
+margin:50px 0 50px 0;
+background-color:aliceblue;
+padding:10px;
+width:100%;
+text-wrap:wrap;
+}
+#menu div h2
+{
+    margin-bottom:20px;
+    font-size:30px;
+    font-style: italic;
+    color:darkred
+}
+#menu div p
+{
+    font-size: 16px;
+}
+hr
+{
+    background-color: black;
+    height:1px;
+}
+
+@media(max-width:750px) 
+{
+   #collapsing
+{
+    overflow: hidden;
+    position: relative;
+    width:100%px;
+    height:162px;
+    text-wrap: wrap;
+background-color:darkred;
+z-index: 1000;
+
+} 
+li {
+border-bottom: 1px solid black;
+margin-bottom:10px;
+margin-top:10px;
+text-align:center;
+font-size: 23px;
+};
+
+}
